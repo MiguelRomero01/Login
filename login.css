@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+/*Salsa, Libre Baskerville*/
+
+body{
+     overflow-y: hidden;
+     background-color: black;
+}
+
+#Login {
+     background: url(bg-login.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     overflow-y: hidden;
+     height: 100vh;
+ }
+
+.loginTittle,.login-text{
+     color: #202022;
+     font-family: 'Salsa', cursive;
+}
+
+
+
+#login-container{
+     padding: 10px;
+     width: 30em;
+     height: 25em;
+     margin: 200px auto;
+     background-color: #a4a7a759;
+     border-radius: 50px;
+     text-align: center;
+     box-shadow: 5px 5px 30px rgb(0, 0, 0);
+     backdrop-filter: blur(11px);
+}
+
+/*------------------Username field and password field---------------*/
+#username, #password{
+     font-weight: 500;
+     font-style: italic;
+     color: black;
+     font-weight: bolder;
+     font-size: 23px;
+     background-color: transparent;
+     border-color: transparent;
+     border-bottom: 3px solid black;
+     width: 20rem;
+     outline:none;
+     transition: all 0.2s linear;
+}
+
+
+#username::placeholder, #password::placeholder{
+     color: rgba(51, 51, 51, 0.733);
+     font-weight: bold;
+     font-family: 'Libre Baskerville',serif;
+}
+
+#username:hover, #password:hover{
+     color: black;
+     font-size: 25px;
+     background-color: rgba(255, 255, 255, 0.397);
+     transition: all 0.3s linear ;
+     border-bottom: 4px solid #00747C;
+}
+
+/**-----------------span text ----------------------*/
+.login-text{
+     font-size: 19px;
+}
+
+#forgotPassword_Link{
+     color: black;
+     position: relative;
+     font-size: 17px;
+     font-weight: 550;
+}
+/*-------------------------Sign in button ----------------------------*/
+.Login-btn{
+     font-weight: bold;
+     background-color: rgb(220, 217, 217);
+     border-radius: 15px;
+     width: 13rem;
+     height: 3rem;     
+     font-size: 19px;
+     transition: all 0.25s linear;
+}
+
+.Login-btn:hover{
+     background-color: black;
+     color: white;
+     cursor: pointer;
+}
+
+/*-------------------links--------------------*/
+.register-now{
+     font-size: 20px;
+     text-decoration: none;
+     color: #05a1e9;
+     transition: all 0.2s linear;
+}
+
+.register-now:hover{
+     text-decoration: underline;
+     color: #27bbff;
+}
+
