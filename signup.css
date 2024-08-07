@@ -102,14 +102,14 @@ input::placeholder{
 }
  
 /*-------------------links--------------------*/
-.login-go{
+.Login-go{
      font-size: 18px;
      text-decoration: none;
      color: rgb(255, 0, 51);
      
 }
 
-.login-go:hover{
+.Login-go:hover{
      text-decoration: underline;
 }
 

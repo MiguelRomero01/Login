@@ -214,9 +214,9 @@ function sign_in_verification(){
   if (userdict["username"] == usernameSignin && userdict["password"] == passwordSignin){
     clearAll();
     window.location.href = "paint.html"
-  } else {
-    document.getElementById("Incorrect_SignIn_msg").style.color = "red";
-    document.getElementById("Incorrect_SignIn_msg").innerHTML = "The username or password is incorrect.";
+  } 
+  else {
+    document.getElementById("Login-ErrorText").innerHTML = "The username or password is incorrect.";
   }
 }
 
