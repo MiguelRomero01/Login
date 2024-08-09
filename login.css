@@ -90,6 +90,15 @@ body{
      text-align: center;
      margin-bottom: 3%;
 }
+
+#recoverPassword_error{
+     font-family: 'Salsa';
+     color: red;
+     font-size: 15px;
+     text-align: center;
+     margin-top: 3%;
+}
+
 /*-------------------------Sign in button ----------------------------*/
 #Login-button{
      font-family: Arial, Helvetica, sans-serif;

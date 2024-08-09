@@ -232,6 +232,10 @@ function openRecoveryPasswordDialog() {
   if(userdict["birthday"] == birthDayUserPsw && userdict["username"] == usernameRecoverPsw){
     handleRecoveryPasswordDialog();
   }
+  else{
+    const RecoverPassword_errorMsg = document.getElementById('recoverPassword_error');
+    RecoverPassword_errorMsg.innerHTML = "The username or birthday is incorrect.";
+  }
 }
 
 // Function to recover password
